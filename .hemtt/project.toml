@@ -36,7 +36,3 @@ workshop = [
     "1795825073", # USP Gear - AIO
 ]
 mission = "editor.vr"
-
-[hemtt.launch.modpack]
-extends = "default"
-presets = ["tfpv1"]
