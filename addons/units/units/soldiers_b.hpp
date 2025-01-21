@@ -30,8 +30,8 @@ class GVAR(blufor_soldier) : B_Soldier_base_F {
 
     uniformClass = "USP_G3C_MC";
 
-    linkedItems[]        = { "USP_CRYE_JPC_ASLTB", "USP_OPSCORE_FASTMTC_G", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "ACE_Vector" };
-    respawnLinkedItems[] = { "USP_CRYE_JPC_ASLTB", "USP_OPSCORE_FASTMTC_G", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "ACE_Vector" };
+    linkedItems[]        = { "USP_CRYE_JPC_ASLTB", "USP_OPSCORE_FASTMTC_G", "ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc152", "ACE_Vector" };
+    respawnLinkedItems[] = { "USP_CRYE_JPC_ASLTB", "USP_OPSCORE_FASTMTC_G", "ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc152", "ACE_Vector" };
 };
 
 class GVAR(blufor_D_Rifleman) : GVAR(blufor_soldier) {
@@ -46,8 +46,8 @@ class GVAR(blufor_D_Rifleman) : GVAR(blufor_soldier) {
     weapons[]        = { QGVAR(weapon_ak103_zenitco01_b33), "rhsusf_weap_glock17g4", "rhs_weap_M136_hedp", "Throw", "Put" };
     respawnWeapons[] = { QGVAR(weapon_ak103_zenitco01_b33), "rhsusf_weap_glock17g4", "rhs_weap_M136_hedp", "Throw", "Put" };
 
-    Items[]        = { MAG_5(ACE_PackingBandage), MAG_5(ACE_elasticBandage), MAG_3(ACE_morphine), MAG_3(ACE_epinephrine), MAG_2(ACE_tourniquet), MAG_2(ACE_splint), "ACRE_PRC343" };
-    RespawnItems[] = { MAG_5(ACE_PackingBandage), MAG_5(ACE_elasticBandage), MAG_3(ACE_morphine), MAG_3(ACE_epinephrine), MAG_2(ACE_tourniquet), MAG_2(ACE_splint), "ACRE_PRC343" };
+    Items[]        = { MAG_5(ACE_PackingBandage), MAG_5(ACE_elasticBandage), MAG_3(ACE_morphine), MAG_3(ACE_epinephrine), MAG_2(ACE_tourniquet), MAG_2(ACE_splint) };
+    RespawnItems[] = { MAG_5(ACE_PackingBandage), MAG_5(ACE_elasticBandage), MAG_3(ACE_morphine), MAG_3(ACE_epinephrine), MAG_2(ACE_tourniquet), MAG_2(ACE_splint) };
 
     magazines[]        = { MAG_5(rhs_30Rnd_762x39mm_polymer), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
     respawnMagazines[] = { MAG_5(rhs_30Rnd_762x39mm_polymer), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
@@ -66,8 +66,8 @@ class GVAR(blufor_D_Rifleman_MCX) : GVAR(blufor_soldier) {
     weapons[]        = { QGVAR(weapon_SIG_MCX_115_Virtus), "rhsusf_weap_glock17g4", "rhs_weap_M136_hedp", "Throw", "Put" };
     respawnWeapons[] = { QGVAR(weapon_SIG_MCX_115_Virtus), "rhsusf_weap_glock17g4", "rhs_weap_M136_hedp", "Throw", "Put" };
 
-    Items[]        = { MAG_5(ACE_PackingBandage), MAG_5(ACE_elasticBandage), MAG_3(ACE_morphine), MAG_3(ACE_epinephrine), MAG_2(ACE_tourniquet), MAG_2(ACE_splint), "ACRE_PRC343" };
-    RespawnItems[] = { MAG_5(ACE_PackingBandage), MAG_5(ACE_elasticBandage), MAG_3(ACE_morphine), MAG_3(ACE_epinephrine), MAG_2(ACE_tourniquet), MAG_2(ACE_splint), "ACRE_PRC343" };
+    Items[]        = { MAG_5(ACE_PackingBandage), MAG_5(ACE_elasticBandage), MAG_3(ACE_morphine), MAG_3(ACE_epinephrine), MAG_2(ACE_tourniquet), MAG_2(ACE_splint) };
+    RespawnItems[] = { MAG_5(ACE_PackingBandage), MAG_5(ACE_elasticBandage), MAG_3(ACE_morphine), MAG_3(ACE_epinephrine), MAG_2(ACE_tourniquet), MAG_2(ACE_splint) };
 
     magazines[]        = { MAG_5(Tier1_30Rnd_556x45_M855A1_EMag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
     respawnMagazines[] = { MAG_5(Tier1_30Rnd_556x45_M855A1_EMag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
@@ -77,7 +77,7 @@ UCOPY(Rifleman_MCX)
 class GVAR(blufor_D_SquadLeader) : GVAR(blufor_D_Rifleman) {
     displayName = CSTRING(Soldier_SquadLeader);
 
-    backpack = "USP_REEBOW_3DAP_ACC4_MC";
+    backpack = "tfw_ilbe_whip_mc";
     icon     = "iconManLeader";
 
     weapons[]        = { QGVAR(weapon_SIG_MCX_115_Virtus), "rhsusf_weap_glock17g4", "Throw", "Put" };

@@ -6,7 +6,6 @@ class CfgPatches {
         units[] = {
             QGVAR(moduleResupply),
             QGVAR(moduleTeleport),
-            QGVAR(moduleAcreSetup),
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
@@ -15,8 +14,7 @@ class CfgPatches {
             "kat_pharma",
             "ace_medical",
             "cba_settings",
-            "ace_arsenal",
-            "acre_api",
+            "ace_arsenal"
         };
         author = ECSTRING(common,TFPTeam);
         authors[] = {"hbjydev"};

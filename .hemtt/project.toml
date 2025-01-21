@@ -5,6 +5,8 @@ mainprefix = "z"
 
 [files]
 include = [
+    "*.dll",
+    "*.so",
     "mod.cpp",
     "README*.md",
     "LICENSE",
@@ -22,7 +24,8 @@ workshop = [
     "450814997",  # CBA_A3
     "463939057",  # ace
     "2020940806", # KAT Advanced Medical
-    "751965892",  # ACRE2
+    "894678801",  # Task Force Arrowhead Radio (BETA!!!)
+    "1875281645", # ILBE Assault Pack - Rewrite
 
     # Weapons & Assets
     "843577117",  # RHSUSAF
